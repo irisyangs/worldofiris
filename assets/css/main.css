@@ -235,7 +235,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 1200px;
+		/* width: 1200px; */
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -2125,9 +2125,9 @@ input, select, textarea {
 		-webkit-transform: translate3d(0, 0, 0);
 		position: relative;
 		border-top: solid 1px #c2c7cc;
-		padding: 6em 0 6em 0;
-		background-image: url("images/overlay.png"), url("images/footer.svg");
-		background-size: 128px 128px,				100% 100%;
+		padding: 2em 0 2em 0;
+		/* background-image: url("images/overlay.png"), url("images/footer.svg"); */
+		/* background-size: 128px 128px,				100% 100%; */
 	}
 
 /* Header */
@@ -2431,9 +2431,9 @@ input, select, textarea {
 				padding: 5em 0 5em 0;
 			}
 
-			#footer-wrapper {
+			/* #footer-wrapper {
 				padding: 5em 0 5em 0;
-			}
+			} */
 
 	}
 
@@ -2476,9 +2476,9 @@ input, select, textarea {
 				padding: 2em;
 			}
 
-			#footer-wrapper {
+			/* #footer-wrapper {
 				padding: 4em 2em 4em 2em;
-			}
+			} */
 
 		/* Header */
 
@@ -2503,9 +2503,9 @@ input, select, textarea {
 
 		/* Hero */
 
-			#hero {
+			/* #hero {
 				padding: 3.5em 4em 0 4em;
-			}
+			} */
 
 				#hero h2 {
 					font-size: 2.75em;
@@ -2646,9 +2646,9 @@ input, select, textarea {
 
 		/* Footer */
 
-			#footer header.major {
+			/* #footer header.major {
 				margin-bottom: 1.5em;
-			}
+			} */
 
 	}
 
@@ -2712,9 +2712,9 @@ input, select, textarea {
 				padding: 20px;
 			}
 
-			#footer-wrapper {
+			/* #footer-wrapper {
 				padding: 3em 20px 3em 20px;
-			}
+			} */
 
 		/* Header */
 
