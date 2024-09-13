@@ -221,7 +221,7 @@ input, select, textarea {
 		header > p {
 			display: block;
 			color: #f35858;
-			padding: 0.75em 0 1em 0;
+			padding: 0.5em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
 		}
@@ -2093,22 +2093,14 @@ input, select, textarea {
 		}
 
 	#header-wrapper {
-		position: relative;
-		padding: 4em 0 2em 0;
-		background-image: url("images/header.svg");
 		background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-color: #f08c89;
-		background-size: 100% 620%;
-		background-size: 128px 128px, 100% 620%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
 	}
 
 	.homepage #header-wrapper {
-		padding: 10em 0 6em 0;
-		background-size: 128px 128px, 100% 100%, auto;
+		padding: 5em 0 2.5em 0;
+		/* background-size: 128px 128px, 100% 100%, auto; */
 	}
 
 	#promo-wrapper {
@@ -2125,7 +2117,7 @@ input, select, textarea {
 		-webkit-transform: translate3d(0, 0, 0);
 		position: relative;
 		border-top: solid 1px #c2c7cc;
-		padding: 2em 0 2em 0;
+		/* padding: 2em 0 2em 0; */
 		/* background-image: url("images/overlay.png"), url("images/footer.svg"); */
 		/* background-size: 128px 128px,				100% 100%; */
 	}
@@ -2280,6 +2272,9 @@ input, select, textarea {
 		color: #fff;
 		text-align: center;
 		z-index: 1;
+		position: relative;
+		padding: 4em 0 2em 0;
+		/* background-image: url("images/header.svg"); */
 	}
 
 		#hero h2 {
@@ -2383,7 +2378,7 @@ input, select, textarea {
 	}
 
 		#footer header.major {
-			margin-bottom: 3em;
+			margin-bottom: 1em;
 		}
 
 /* Copyright */
@@ -2691,6 +2686,7 @@ input, select, textarea {
 			ul.divided li {
 				padding-top: 0.75em;
 				margin-top: 0.75em;
+				display: flex;
 			}
 
 		/* Wrappers */
