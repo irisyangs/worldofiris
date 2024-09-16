@@ -2077,7 +2077,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		background: #fff;
+		/* background: #fff; */
 		overflow-x: hidden;
 		padding: 6em 0 6em 0;
 	}
