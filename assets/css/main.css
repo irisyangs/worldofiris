@@ -2388,11 +2388,11 @@ input, select, textarea {
 		position: absolute;
 		z-index: 1;
 		width: 50%; 
-    	height: 300px;
+    	height: 100px;
 	}
 
 		#footer header.major {
-			margin-bottom: 1em;
+			margin-bottom: 0em;
 		}
 
 /* Copyright */
@@ -2753,8 +2753,8 @@ input, select, textarea {
 
 				#footer ul.divided li:first-child {
 					border-top: solid 1px #d2d7dc;
-					padding-top: 0.75em;
-					margin-top: 0.75em;
+					padding-top: 0.50em;
+					margin-top: 0.50em;
 				}
 
 				#footer ul.divided:first-child li:first-child {
@@ -3074,7 +3074,7 @@ input, select, textarea {
 		/* Footer */
 
 			#footer header.major {
-				margin-bottom: 1em;
+				margin-bottom: 0em;
 			}
 
 	}
